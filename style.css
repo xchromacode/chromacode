@@ -23,6 +23,7 @@ header h1 {
 }
 
 .slogan {
+  font-style: normal; /* tirado o itálico */
   color: #555;
   margin-bottom: 20px;
 }
@@ -53,7 +54,8 @@ nav a:hover {
 
 .box {
   width: 300px;
-  padding: 10px;
+  padding: 20px;
+  /* border removido */
   text-align: left;
   font-size: 14px;
   line-height: 1.5;
@@ -61,7 +63,6 @@ nav a:hover {
 
 .gif-box {
   padding: 0;
-  border: none;
 }
 
 .gif-box img {
