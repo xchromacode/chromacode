@@ -6,9 +6,15 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  padding: 40px 20px;
   background: #fff;
   color: #111;
+}
+
+/* Centraliza e limita a largura */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 header {
@@ -23,7 +29,7 @@ header h1 {
 }
 
 .slogan {
-  font-style: normal; /* tirado o itálico */
+  font-style: normal; /* Tiramos o itálico */
   color: #555;
   margin-bottom: 20px;
 }
@@ -55,7 +61,6 @@ nav a:hover {
 .box {
   width: 300px;
   padding: 20px;
-  /* border removido */
   text-align: left;
   font-size: 14px;
   line-height: 1.5;
