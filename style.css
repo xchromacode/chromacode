@@ -65,6 +65,13 @@ nav a:hover {
   line-height: 1.5;
 }
 
+.box-larga {
+  width: 100%;
+  max-width: 700px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 .gif-box {
   padding: 0;
 }
@@ -114,7 +121,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* BOTÃO DE AGENDAMENTO */
+/* Botão de agendamento */
 .botao-agendamento {
   display: inline-block;
   margin-top: 20px;
